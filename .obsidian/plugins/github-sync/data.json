@@ -1,7 +1,7 @@
 {
   "remoteURL": "https://github.com/seanmodd/brainmirror",
   "gitLocation": "",
-  "syncinterval": 10,
+  "syncinterval": 5,
   "isSyncOnLoad": true,
   "checkStatusOnLoad": true
 }
