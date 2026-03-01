@@ -31,8 +31,7 @@
               "title": "Graph view"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -105,6 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "My first obsidian.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for My first obsidian"
             }
           },
           {
@@ -123,11 +123,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "My first obsidian.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from My first obsidian"
             }
           },
           {
@@ -165,12 +166,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "My first obsidian.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of My first obsidian"
             }
           }
         ]
@@ -194,7 +196,7 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "f45f58dd701fca8c",
+  "active": "6e9ca8f9a261788e",
   "lastOpenFiles": [
     "Untitled 1.canvas",
     "Untitled.canvas",
