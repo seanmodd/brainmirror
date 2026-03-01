@@ -13,12 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "My first obsidian.md",
+                "file": "My third obsidian 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "My first obsidian"
+              "title": "My third obsidian 1"
+            }
+          },
+          {
+            "id": "174fc98a28e97882",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "My fourth obsidian!.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "My fourth obsidian!"
             }
           },
           {
@@ -31,7 +45,8 @@
               "title": "Graph view"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -104,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "My first obsidian.md",
+                "file": "My fourth obsidian!.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +129,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for My first obsidian"
+              "title": "Backlinks for My fourth obsidian!"
             }
           },
           {
@@ -123,12 +138,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "My first obsidian.md",
+                "file": "My fourth obsidian!.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from My first obsidian"
+              "title": "Outgoing links from My fourth obsidian!"
             }
           },
           {
@@ -166,13 +181,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "My first obsidian.md",
+                "file": "My fourth obsidian!.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of My first obsidian"
+              "title": "Outline of My fourth obsidian!"
             }
           }
         ]
@@ -198,10 +213,12 @@
   },
   "active": "6e9ca8f9a261788e",
   "lastOpenFiles": [
+    "My third obsidian 1.md",
+    "My fourth obsidian!.md",
+    "My first obsidian.md",
     "Untitled 1.canvas",
     "Untitled.canvas",
     "My second obsidian.md",
-    "My first obsidian.md",
     "README.md"
   ]
 }
