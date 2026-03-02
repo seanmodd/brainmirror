@@ -11,10 +11,13 @@
             "id": "df5dc7449126806d",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "bases",
+              "state": {
+                "file": "First Base View.base",
+                "viewName": "Table"
+              },
+              "icon": "lucide-table",
+              "title": "First Base View"
             }
           }
         ]
@@ -185,13 +188,16 @@
   },
   "active": "df5dc7449126806d",
   "lastOpenFiles": [
+    "My first obsidian.md",
+    "First Base View.base",
+    "My second obsidian!!!.md",
+    "README.md",
     "2026/03-March/01/Twitter - persiansean - ringhyacinth sanjuruk (2026-03-01).md",
     "2026/03-March/01/Twitter - persiansean - JulianGoldieSEO Readwise save thread (2026-03-01).md",
     "Twitter - Claude_Memory - RT ClaudeMemory How to enable AutoMe (2026-02-27).md",
     "2026/02-February/25/Twitter - MiniMaxAgent - RT MiniMaxAgent Meet MaxClawOpenCl (2026-02-25).md",
     "2026/02-February/25/Twitter - persiansean - 0xPeLpA toggle openclaw Readwise sav (2026-02-25).md",
     "Twitter - timourxyz - RT timourxyz I made an agent skill cal (2026-02-25).md",
-    "README.md",
     "2026/03-March/02/Twitter - zarazhangrui - RT zarazhangrui How I created the fron (2026-03-02).md",
     "2026/03-March/02/Twitter - visegrad24 - RT visegrad24 BREAKING99yearold I (2026-03-02).md",
     "2026/03-March/02/Twitter - viktoroddy - RT viktoroddy FULL VIDEO TUTORIAL ON N (2026-03-02).md",
@@ -209,8 +215,6 @@
     "2026/03-March/02/Twitter - persiansean - AlbiaHossain Readwise save thread pck (2026-03-02).md",
     "2026/03-March/02/Twitter - mazeincoding - RT mazeincoding OH MY GOD httpstco (2026-03-02).md",
     "2026/03-March/02/Twitter - jordymaui - RT jordymaui nobody talks about this b (2026-03-02).md",
-    "2026/03-March/02/Twitter - cryptopunk7213 - RT cryptopunk7213 anthropic fucking ki (2026-03-02).md",
-    "2026/03-March/02/Twitter - KimDotcom - RT KimDotcom Follow her for war update (2026-03-02).md",
     "2026/03-March/02",
     "2026/03-March/01",
     "2026/02-February/25",
