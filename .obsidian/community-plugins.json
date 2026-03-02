@@ -1,4 +1,6 @@
 [
   "github-sync",
-  "colored-tags"
+  "colored-tags",
+  "automatic-table-of-contents",
+  "auto-card-link"
 ]
