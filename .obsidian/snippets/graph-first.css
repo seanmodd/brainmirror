@@ -1,0 +1,125 @@
+/* @settings
+
+name: Graph First (Premium Dark)
+id: graph-first-premium
+settings:
+  -
+    id: text-accent
+    title: Accent Color
+    type: variable-themed-color
+    format: hex
+    default-light: '#3b5bff'
+    default-dark: '#7c8cff'
+  -
+    id: opacity-translucency-dark
+    title: Graph Glass Strength (Dark)
+    type: variable-number-slider
+    default: 0.55
+    min: 0
+    max: 1
+    step: 0.05
+*/
+
+/* =========================================================
+   CORE VARIABLES (minimal global change)
+   ========================================================= */
+
+.theme-dark {
+    --background-primary: #0f1116;
+    --background-primary-alt: #121520;
+    --background-secondary: #0c0e13;
+
+    --background-modifier-border: rgba(255, 255, 255, 0.08);
+    --background-modifier-box-shadow: rgba(0, 0, 0, 0.6);
+
+    --text-normal: #e7e9ee;
+    --text-muted: #a6adbb;
+
+    --interactive-normal: #141824;
+    --interactive-hover: #171c2a;
+}
+
+/* =========================================================
+   GRAPH VIEW UPGRADE
+   ========================================================= */
+
+/* Add depth to graph background only */
+.graph-view .graph-view-content {
+    background:
+        radial-gradient(1200px 900px at 20% 15%,
+            color-mix(in srgb, var(--text-accent) 18%, transparent),
+            transparent 60%),
+        radial-gradient(900px 700px at 85% 75%,
+            color-mix(in srgb, #22c55e 10%, transparent),
+            transparent 65%),
+        var(--background-primary);
+}
+
+/* Softer links (less visual noise) */
+.graph-view .link {
+    opacity: 0.45;
+}
+
+/* Node glow */
+.graph-view .node {
+    filter: drop-shadow(0 6px 16px var(--background-modifier-box-shadow));
+}
+
+/* Node hover + active glow */
+.graph-view .node:hover,
+.graph-view .node.is-active {
+    filter:
+        drop-shadow(0 0 12px color-mix(in srgb, var(--text-accent) 50%, transparent)) drop-shadow(0 12px 28px var(--background-modifier-box-shadow));
+}
+
+/* Sharper labels */
+.graph-view .label {
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    color: color-mix(in srgb, var(--text-normal) 92%, white);
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.45);
+}
+
+/* Floating glass graph controls */
+.graph-controls {
+    border-radius: 14px;
+    border: 1px solid var(--background-modifier-border);
+    background: color-mix(in srgb, var(--background-primary-alt) 70%, transparent);
+    backdrop-filter: blur(calc(14px * var(--opacity-translucency-dark)));
+    box-shadow: 0 16px 40px var(--background-modifier-box-shadow);
+}
+
+/* Nicer buttons inside graph only */
+.graph-controls button {
+    border-radius: 10px;
+    border: 1px solid var(--background-modifier-border);
+    background: var(--interactive-normal);
+    transition: all 120ms ease;
+}
+
+.graph-controls button:hover {
+    background: var(--interactive-hover);
+    box-shadow: 0 8px 18px var(--background-modifier-box-shadow);
+}
+
+/* Inputs inside graph only */
+.graph-controls input,
+.graph-controls select {
+    border-radius: 10px;
+    border: 1px solid var(--background-modifier-border);
+    background: rgba(0, 0, 0, 0.35);
+}
+
+.graph-controls input:focus,
+.graph-controls select:focus {
+    outline: none;
+    border-color: color-mix(in srgb, var(--text-accent) 55%, transparent);
+    box-shadow: 0 0 0 3px color-mix(in srgb, var(--text-accent) 20%, transparent);
+}
+
+/* Subtle smoothness */
+.graph-view,
+.graph-controls,
+.graph-view .node {
+    transition: all 160ms ease;
+}

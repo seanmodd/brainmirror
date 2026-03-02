@@ -179,12 +179,14 @@
       "bases:Create new base": false,
       "github-sync:Sync with Remote": false,
       "audio-recorder:Start/stop recording": false,
-      "publish:Publish changes...": false
+      "publish:Publish changes...": false,
+      "templater-obsidian:Templater": false
     }
   },
   "active": "df5dc7449126806d",
   "lastOpenFiles": [
     "2026/03-March/01/Twitter - persiansean - ringhyacinth sanjuruk (2026-03-01).md",
+    "2026/03-March/01/Twitter - persiansean - JulianGoldieSEO Readwise save thread (2026-03-01).md",
     "Twitter - Claude_Memory - RT ClaudeMemory How to enable AutoMe (2026-02-27).md",
     "2026/02-February/25/Twitter - MiniMaxAgent - RT MiniMaxAgent Meet MaxClawOpenCl (2026-02-25).md",
     "2026/02-February/25/Twitter - persiansean - 0xPeLpA toggle openclaw Readwise sav (2026-02-25).md",
@@ -209,7 +211,6 @@
     "2026/03-March/02/Twitter - jordymaui - RT jordymaui nobody talks about this b (2026-03-02).md",
     "2026/03-March/02/Twitter - cryptopunk7213 - RT cryptopunk7213 anthropic fucking ki (2026-03-02).md",
     "2026/03-March/02/Twitter - KimDotcom - RT KimDotcom Follow her for war update (2026-03-02).md",
-    "2026/03-March/02/Twitter - JulianGoldieSEO - RT JulianGoldieSEO Claude just added t (2026-03-02).md",
     "2026/03-March/02",
     "2026/03-March/01",
     "2026/02-February/25",

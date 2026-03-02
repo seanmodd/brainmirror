@@ -1,4 +1,7 @@
 {
   "translucency": false,
-  "cssTheme": ""
+  "cssTheme": "",
+  "enabledCssSnippets": [
+    "graph-first"
+  ]
 }
