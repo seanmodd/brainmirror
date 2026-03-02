@@ -2,5 +2,7 @@
   "github-sync",
   "colored-tags",
   "automatic-table-of-contents",
-  "auto-card-link"
+  "auto-card-link",
+  "obsidian-style-settings",
+  "templater-obsidian"
 ]
